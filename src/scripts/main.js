@@ -7,5 +7,5 @@ wiersze.forEach((row) => {
   const komorka = row.cells[1];
   const kopia = komorka.cloneNode(true);
 
-  row.insertBefore(kopia, row.cells[row.cells.length - 1])
+  row.insertBefore(kopia, row.cells[row.cells.length - 1]);
 });
